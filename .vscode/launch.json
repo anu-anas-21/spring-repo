@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DependencyInjectionApplication",
+            "request": "launch",
+            "mainClass": "com.example.di.DependencyInjectionApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HelloWorldApplication<HelloWorld>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.helloworld.HelloWorld.HelloWorldApplication",
+            "projectName": "HelloWorld",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
